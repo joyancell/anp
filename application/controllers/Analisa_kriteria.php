@@ -15,8 +15,6 @@ class Analisa_kriteria extends CI_Controller {
 	{
 		
 		$data = [
-			// 'r' => $r
-
 		];
 		$this->load->view('header', $data);
 		$this->load->view('analisa_kriteria', $data);
